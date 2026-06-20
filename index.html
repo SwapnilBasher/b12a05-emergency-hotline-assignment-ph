@@ -66,11 +66,16 @@
 
     <main class="bg-[#F5FFF6]">
 
-        <section class="pt-12 px-14">
-            <!-- card -->
+        <section class="pt-12 px-14 flex flex-col gap-10 md:grid grid-cols-3">
+
+
+
+
+            <!-- National card -->
             <div class="flex flex-col items-start gap-4 p-8 rounded-xl bg-white shadow-[0_2px_3px_0_rgba(0,0,0,0.15)]">
                 <div class="flex justify-between items-center self-stretch">
-                    <img class="bg-[#FFE3E2] w-14 h-14 rounded-2xl" src="/assets/emergency.png" alt="ambulance-emergency-sign">
+                    <img class="bg-[#FFE3E2] w-14 h-14 rounded-2xl" src="/assets/emergency.png"
+                        alt="ambulance-emergency-sign">
                     <button class="btn border-none">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
                             stroke="currentColor" class="size-[1.2em]">
@@ -80,16 +85,203 @@
                     </button>
                 </div>
                 <div>
-                    <h4 class="text-[#111] font-['Hind_Madurai'] text-2xl font-bold leading-8">National Emergency Number</h4>
+                    <h4 class="text-[#111] font-['Hind_Madurai'] text-2xl font-bold leading-8">National Emergency Number
+                    </h4>
                     <h5 class="text-[#5C5C5C] font-roboto text-lg font-normal">National Emergency</h5>
                     <p class="text-[#111] font-roboto text-[32px] font-bold">999</p>
-                    <button class="flex items-center justify-center gap-2.5 rounded-full bg-[#F2F2F2] px-4 py-1.5" disabled>All</button>
+                    <button class="flex items-center justify-center gap-2.5 rounded-full bg-[#F2F2F2] px-4 py-1.5"
+                        disabled>All</button>
                     <div class="flex items-center gap-2 mt-6">
-                        <button class="btn flex h-10 flex-1 items-center justify-center gap-1.5 rounded-lg border border-[#D4D6D5] bg-white p-4"><i class="fa-regular fa-copy"></i><span>Copy</span></button>
-                        <button class="btn flex h-10 flex-1 items-center justify-center gap-1.5 rounded-lg bg-[#00A63E] p-4"><i class="fa-solid fa-phone"></i><span>Call</span></button>
+                        <button
+                            class="btn flex h-10 flex-1 items-center justify-center gap-1.5 rounded-lg border border-[#D4D6D5] bg-white p-4"><i
+                                class="fa-regular fa-copy"></i><span>Copy</span></button>
+                        <button
+                            class="btn flex h-10 flex-1 items-center justify-center gap-1.5 rounded-lg bg-[#00A63E] p-4 text-white"><i
+                                class="fa-solid fa-phone"></i><span>Call</span></button>
                     </div>
                 </div>
             </div>
+
+            <!-- Police card -->
+            <div class="flex flex-col items-start gap-4 p-8 rounded-xl bg-white shadow-[0_2px_3px_0_rgba(0,0,0,0.15)]">
+                <div class="flex justify-between items-center self-stretch">
+                    <img class="bg-[#FFE3E2] w-14 h-14 rounded-2xl" src="/assets/police.png"
+                        alt="ambulance-emergency-sign">
+                    <button class="btn border-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                            stroke="currentColor" class="size-[1.2em]">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                        </svg>
+                    </button>
+                </div>
+                <div>
+                    <h4 class="text-[#111] font-['Hind_Madurai'] text-2xl font-bold leading-8">Police Helpline Number
+                    </h4>
+                    <h5 class="text-[#5C5C5C] font-roboto text-lg font-normal">Police</h5>
+                    <p class="text-[#111] font-roboto text-[32px] font-bold">999</p>
+                    <button class="flex items-center justify-center gap-2.5 rounded-full bg-[#F2F2F2] px-4 py-1.5"
+                        disabled>Police</button>
+                    <div class="flex items-center gap-2 mt-6">
+                        <button
+                            class="btn flex h-10 flex-1 items-center justify-center gap-1.5 rounded-lg border border-[#D4D6D5] bg-white p-4"><i
+                                class="fa-regular fa-copy"></i><span>Copy</span></button>
+                        <button
+                            class="btn flex h-10 flex-1 items-center justify-center gap-1.5 rounded-lg bg-[#00A63E] p-4 text-white"><i
+                                class="fa-solid fa-phone"></i><span>Call</span></button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- Fire card -->
+            <div class="flex flex-col items-start gap-4 p-8 rounded-xl bg-white shadow-[0_2px_3px_0_rgba(0,0,0,0.15)]">
+                <div class="flex justify-between items-center self-stretch">
+                    <img class="bg-[#FFE3E2] w-14 h-14 rounded-2xl" src="/assets/fire-service.png"
+                        alt="ambulance-emergency-sign">
+                    <button class="btn border-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                            stroke="currentColor" class="size-[1.2em]">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                        </svg>
+                    </button>
+                </div>
+                <div>
+                    <h4 class="text-[#111] font-['Hind_Madurai'] text-2xl font-bold leading-8">Fire Service Number
+                    </h4>
+                    <h5 class="text-[#5C5C5C] font-roboto text-lg font-normal">Fire Service</h5>
+                    <p class="text-[#111] font-roboto text-[32px] font-bold">999</p>
+                    <button class="flex items-center justify-center gap-2.5 rounded-full bg-[#F2F2F2] px-4 py-1.5"
+                        disabled>Fire</button>
+                    <div class="flex items-center gap-2 mt-6">
+                        <button
+                            class="btn flex h-10 flex-1 items-center justify-center gap-1.5 rounded-lg border border-[#D4D6D5] bg-white p-4"><i
+                                class="fa-regular fa-copy"></i><span>Copy</span></button>
+                        <button
+                            class="btn flex h-10 flex-1 items-center justify-center gap-1.5 rounded-lg bg-[#00A63E] p-4 text-white"><i
+                                class="fa-solid fa-phone"></i><span>Call</span></button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+             <!-- Ammbulance card -->
+            <div class="flex flex-col items-start gap-4 p-8 rounded-xl bg-white shadow-[0_2px_3px_0_rgba(0,0,0,0.15)]">
+                <div class="flex justify-between items-center self-stretch">
+                    <img class="bg-[#FFE3E2] w-14 h-14 rounded-2xl" src="/assets/ambulance.png"
+                        alt="ambulance-emergency-sign">
+                    <button class="btn border-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                            stroke="currentColor" class="size-[1.2em]">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                        </svg>
+                    </button>
+                </div>
+                <div>
+                    <h4 class="text-[#111] font-['Hind_Madurai'] text-2xl font-bold leading-8">Ambulance Service
+                    </h4>
+                    <h5 class="text-[#5C5C5C] font-roboto text-lg font-normal">Ambulance</h5>
+                    <p class="text-[#111] font-roboto text-[32px] font-bold">1994-999999</p>
+                    <button class="flex items-center justify-center gap-2.5 rounded-full bg-[#F2F2F2] px-4 py-1.5"
+                        disabled>Health</button>
+                    <div class="flex items-center gap-2 mt-6">
+                        <button
+                            class="btn flex h-10 flex-1 items-center justify-center gap-1.5 rounded-lg border border-[#D4D6D5] bg-white p-4"><i
+                                class="fa-regular fa-copy"></i><span>Copy</span></button>
+                        <button
+                            class="btn flex h-10 flex-1 items-center justify-center gap-1.5 rounded-lg bg-[#00A63E] p-4 text-white"><i
+                                class="fa-solid fa-phone"></i><span>Call</span></button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <!-- Women card -->
+
+             
+            <div class="flex flex-col items-start gap-4 p-8 rounded-xl bg-white shadow-[0_2px_3px_0_rgba(0,0,0,0.15)]">
+                <div class="flex justify-between items-center self-stretch">
+                    <img class="bg-[#FFE3E2] w-14 h-14 rounded-2xl" src="/assets/fire-service.png"
+                        alt="ambulance-emergency-sign">
+                    <button class="btn border-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                            stroke="currentColor" class="size-[1.2em]">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                        </svg>
+                    </button>
+                </div>
+                <div>
+                    <h4 class="text-[#111] font-['Hind_Madurai'] text-2xl font-bold leading-8">Women & Child Helpline
+                    </h4>
+                    <h5 class="text-[#5C5C5C] font-roboto text-lg font-normal">Women & Child Helpline</h5>
+                    <p class="text-[#111] font-roboto text-[32px] font-bold">109</p>
+                    <button class="flex items-center justify-center gap-2.5 rounded-full bg-[#F2F2F2] px-4 py-1.5"
+                        disabled>Help</button>
+                    <div class="flex items-center gap-2 mt-6">
+                        <button
+                            class="btn flex h-10 flex-1 items-center justify-center gap-1.5 rounded-lg border border-[#D4D6D5] bg-white p-4"><i
+                                class="fa-regular fa-copy"></i><span>Copy</span></button>
+                        <button
+                            class="btn flex h-10 flex-1 items-center justify-center gap-1.5 rounded-lg bg-[#00A63E] p-4 text-white"><i
+                                class="fa-solid fa-phone"></i><span>Call</span></button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+             <!-- Anti card -->
+            <div class="flex flex-col items-start gap-4 p-8 rounded-xl bg-white shadow-[0_2px_3px_0_rgba(0,0,0,0.15)]">
+                <div class="flex justify-between items-center self-stretch">
+                    <img class="bg-[#FFE3E2] w-14 h-14 rounded-2xl" src="/assets/fire-service.png"
+                        alt="ambulance-emergency-sign">
+                    <button class="btn border-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                            stroke="currentColor" class="size-[1.2em]">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                        </svg>
+                    </button>
+                </div>
+                <div>
+                    <h4 class="text-[#111] font-['Hind_Madurai'] text-2xl font-bold leading-8">Anti-Corruption Helpline
+                    </h4>
+                    <h5 class="text-[#5C5C5C] font-roboto text-lg font-normal">Anti-Corruption</h5>
+                    <p class="text-[#111] font-roboto text-[32px] font-bold">106</p>
+                    <button class="flex items-center justify-center gap-2.5 rounded-full bg-[#F2F2F2] px-4 py-1.5"
+                        disabled>Govt. </button>
+                    <div class="flex items-center gap-2 mt-6">
+                        <button
+                            class="btn flex h-10 flex-1 items-center justify-center gap-1.5 rounded-lg border border-[#D4D6D5] bg-white p-4"><i
+                                class="fa-regular fa-copy"></i><span>Copy</span></button>
+                        <button
+                            class="btn flex h-10 flex-1 items-center justify-center gap-1.5 rounded-lg bg-[#00A63E] p-4 text-white"><i
+                                class="fa-solid fa-phone"></i><span>Call</span></button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
 
         </section>
 
