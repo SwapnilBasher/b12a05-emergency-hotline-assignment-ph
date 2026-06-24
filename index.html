@@ -28,7 +28,7 @@
             </div>
             <div class="flex flex-wrap justify-center md:justify-end gap-3 md:gap-5 w-full md:w-auto">
                 <button class="btn rounded-[50px] bg-[#41FF6B1A] border-none outline-none ">
-                    <span class="text-xl font-extrabold">0</span>
+                    <span id="header-heart-count-no" class="text-xl font-extrabold">0</span>
                     <img class="w-full h-full object-cover" src="/assets/heart.png" alt="heart-icon">
                 </button>
                 <button class="btn rounded-[50px] bg-[#41FF6B1A] border-none outline-none">
@@ -64,7 +64,7 @@
     </header>
 
 
-    <main class="bg-[#F5FFF6] flex items-center justify-center">
+    <main class="bg-[#F5FFF6] md:flex md:items-center md:justify-center">
 
         <section class="pt-12 px-14 flex flex-col gap-10 md:grid grid-cols-3">
 
@@ -76,7 +76,7 @@
                 <div class="flex justify-between items-center self-stretch">
                     <img class="bg-[#FFE3E2] w-14 h-14 rounded-2xl" src="/assets/emergency.png"
                         alt="ambulance-emergency-sign">
-                    <button class="btn border-none">
+                    <button class="btn border-none heart-button">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
                             stroke="currentColor" class="size-[1.2em]">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -107,7 +107,7 @@
                 <div class="flex justify-between items-center self-stretch">
                     <img class="bg-[#FFE3E2] w-14 h-14 rounded-2xl" src="/assets/police.png"
                         alt="ambulance-emergency-sign">
-                    <button class="btn border-none">
+                    <button class="btn border-none heart-button">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
                             stroke="currentColor" class="size-[1.2em]">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -142,7 +142,7 @@
                 <div class="flex justify-between items-center self-stretch">
                     <img class="bg-[#FFE3E2] w-14 h-14 rounded-2xl" src="/assets/fire-service.png"
                         alt="ambulance-emergency-sign">
-                    <button class="btn border-none">
+                    <button class="btn border-none heart-button">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
                             stroke="currentColor" class="size-[1.2em]">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -177,7 +177,7 @@
                 <div class="flex justify-between items-center self-stretch">
                     <img class="bg-[#FFE3E2] w-14 h-14 rounded-2xl" src="/assets/ambulance.png"
                         alt="ambulance-emergency-sign">
-                    <button class="btn border-none">
+                    <button class="btn border-none heart-button">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
                             stroke="currentColor" class="size-[1.2em]">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -216,7 +216,7 @@
                 <div class="flex justify-between items-center self-stretch">
                     <img class="bg-[#FFE3E2] w-14 h-14 rounded-2xl" src="/assets/fire-service.png"
                         alt="ambulance-emergency-sign">
-                    <button class="btn border-none">
+                    <button class="btn border-none heart-button">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
                             stroke="currentColor" class="size-[1.2em]">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -250,7 +250,7 @@
                 <div class="flex justify-between items-center self-stretch">
                     <img class="bg-[#FFE3E2] w-14 h-14 rounded-2xl" src="/assets/fire-service.png"
                         alt="ambulance-emergency-sign">
-                    <button class="btn border-none">
+                    <button class="btn border-none heart-button">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
                             stroke="currentColor" class="size-[1.2em]">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -310,6 +310,10 @@
     <footer>
 
     </footer>
+
+    <script src="/script.js"></script>
+
+
 </body>
 
 </html>
