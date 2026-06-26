@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+.call-history-item {
+    display: flex;
+    /* flex-direction: column; */
+    padding: 16px;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    border-radius: 8px;
+    background:  #FAFAFA;
+    color:  #111;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
