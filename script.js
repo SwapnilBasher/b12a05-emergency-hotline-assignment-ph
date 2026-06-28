@@ -10,6 +10,32 @@ document.querySelector('section').addEventListener('click', function (event) {
 
     }
 
+    // copy button er kaz
+
+    let copyButton = event.target.closest('.copy-button'); // Find the closest button element to the clicked target
+
+    if (copyButton) { // If a button was found
+        let containerDiv = event.target.closest('.data-card'); // Find the closest container div to the clicked target
+
+        if (containerDiv) { // If a container div was found
+            let phoneNumber = containerDiv.querySelector('p').textContent; // Get the phone number from the container div
+
+            navigator.clipboard.writeText(phoneNumber) // Copy the phone number to the clipboard
+                .then(() => {
+                    alert(`Copied ${phoneNumber} to clipboard`); // Display an alert confirming the copy
+
+                    document.getElementById('copy-count').textContent = parseInt(document.getElementById('copy-count').textContent) + 1; // Increment the copy count 
+
+                })
+                .catch(err => {
+                    console.error('Failed to copy: ', err); // Log any errors that occur during the copy process
+                });
+
+        }
+    }
+
+
+
     let callButton = event.target.closest('.call-button'); // Find the closest button element to the clicked target
 
     if (callButton) { // If a button was found
